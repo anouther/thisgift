@@ -3,7 +3,7 @@
       const c = setTimeout(() => {
         document.body.classList.remove("not-loaded");
 
-        const titles = ('mas, i love you!').split('');
+        const titles = ('To you, the one I adore.').split('');
         const titleElement = document.getElementById('title');
         let index = 0;
 
@@ -21,7 +21,7 @@
           } else {
             // Setelah teks utama selesai, tambahkan subtitle kecil
             const subtitle = document.createElement('p');
-            subtitle.innerText = "Happy birthday to my dearest person!";
+            subtitle.innerText = "May this new chapter of life unfold like the most beautiful story—written with love, bound by joy, and filled with moments that bring you endless happiness. Please know that through every world, every timeline, every scenario, and every regression, I will always love you in every universe, my Kim Dokja.";
             subtitle.style.fontSize = '20px'; // Ukuran font lebih kecil
             subtitle.style.marginTop = '2px'; // Spasi antara teks utama dan subtitle
             subtitle.style.color = '#fff'; // Warna abu-abu untuk teks subtitle
